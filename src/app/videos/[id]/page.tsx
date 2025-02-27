@@ -18,8 +18,8 @@ export default function VideoPage({ params }: { params: { id: string } }) {
 			"https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
 		thumbnail: "/placeholder.svg?height=720&width=1280",
 		duration: "10:30",
-		instructor: "Ana Martínez",
-		date: "2023-05-15",
+		instructor: "Andrea Montaño",
+		date: "2025-05-15",
 	};
 
 	return (
@@ -53,7 +53,7 @@ export default function VideoPage({ params }: { params: { id: string } }) {
 										{videoData.description}
 									</p>
 									<div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
-										<div>Instructor: {videoData.instructor}</div>
+										<div>Protagonista: {videoData.instructor}</div>
 										<div>
 											Fecha: {new Date(videoData.date).toLocaleDateString()}
 										</div>
